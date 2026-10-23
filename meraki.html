@@ -160,7 +160,7 @@ header { padding:clamp(18px, 3vh, 32px); font-size:clamp(30px, 4vw, 44px); }
 <script>
 let lastGTime = 0;
 document.addEventListener('keydown', function(event) {
-    if (event.key.toLowerCase() !== '3112' || event.repeat) return;
+    if (event.key.toLowerCase() !== 'g' || event.repeat) return;
     const now = Date.now();
     if (now - lastGTime <= 1000) {
         const startScreen = document.getElementById('start-screen');
